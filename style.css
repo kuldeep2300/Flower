@@ -39,7 +39,7 @@ body {
 @media (width <= 768px ) {
   body{
     padding: 0 200px;
-    padding-bottom: 500px;
+    padding-bottom: 200px;
   }
 
   .flowers {
