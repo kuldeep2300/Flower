@@ -33,7 +33,19 @@ body {
 
 .flowers {
   position: relative;
-  transform: scale(0.7);
+  transform: scale(.7);
+}
+
+@media (width <= 768px ) {
+  body{
+    padding: 0 200px;
+    padding-bottom: 500px;
+  }
+
+  .flowers {
+    position: relative;
+    transform: scale(.8);
+  }
 }
 
 .flower {
